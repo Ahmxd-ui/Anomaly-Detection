@@ -74,16 +74,19 @@ Since the dataset is large, it is not hosted in this repository.
 Open notebook/Anomaly_detection.ipynb in VS Code or Jupyter to run the pipeline.
 ## 📋 Examples
 
-Input Data (Anonymized):
-V1	V2	...	V28	Amount
--1.35	-0.07	...	-0.02	149.62
-1.19	0.26	...	0.01	2.69
+**Input Data (Anonymized):**
 
-Model Output:
-Transaction ID	Anomaly Score	Prediction
-001	-0.15	-1 (Fraud)
-002	0.65	1 (Safe)
+| V1 | V2 | ... | V28 | Amount |
+| :--- | :--- | :--- | :--- | :--- |
+| -1.35 | -0.07 | ... | -0.02 | 149.62 |
+| 1.19 | 0.26 | ... | 0.01 | 2.69 |
 
+**Model Output:**
+
+| Transaction ID | Anomaly Score | Prediction |
+| :--- | :--- | :--- |
+| 001 | -0.15 | -1 (Fraud) |
+| 002 | 0.65 | 1 (Safe) |
 ## 🧩 Machine Learning Pipeline
 
 This project follows an Unsupervised Learning workflow:
